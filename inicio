@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    Hello world Ana
+    <table>
+  <tr>
+    <th>Mes</th>
+    <th>Día</th>
+  </tr>
+  <tr>
+    <td>Febrero</td>
+    <td>28</td>
+  </tr>
+  <tr>
+    <td>Septiembre</td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>Septiembre</td>
+    <td>15</td>
+  </tr>
+</table>
+    <script src="script.js"></script>
+  </body>
+</html>
