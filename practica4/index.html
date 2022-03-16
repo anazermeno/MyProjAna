@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        
+        <h1 id="app" style="text-align: center; color: palevioletred">
+            {{ message }}
+        </h1>
+
+        <div id="app-2" text-align: center>
+           <ol>
+               <li v-for="msg in bucl">
+                 {{ msg.message }}
+               </li>
+           </ol>
+        </div>
+
+        <h1 id="app-3" style="text-align: center; color: purple">
+            {{ message }}
+        </h1>
+
+        <div id="app-4" text-align: center>
+            <ul>
+                <li v-for="msg in bucl">
+                  {{ msg.message }}
+                </li>
+            </ul>
+        </div>
+
+        <div id="detalle">
+           <p> Nombre del alumno: {{name}}</p>
+           <p> Fecha de hoy: {{date}}</p>
+           <div> 
+            <img style="width:200px;height:150px;display: block;margin: 0 auto;" v-bind:src="imag">
+           </div>
+        </div>
+        <script src="basic.js"></script>
+    </body>
+
+</html>
