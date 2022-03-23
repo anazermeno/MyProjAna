@@ -56,4 +56,4 @@ var app5 = new Vue({
         matricula: 'A00824913',
         titulo: '1er parcial'
     }
-})
+});
